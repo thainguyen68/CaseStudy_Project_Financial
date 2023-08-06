@@ -1,0 +1,28 @@
+.other-tooltip-container {
+    font-size: 10px;
+    position: absolute;
+    background-color: white;
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+    width: 44%;
+    height: 30px;
+    left: 345px;
+    top: 170px;
+    z-index: 1000;
+}
+.other-tooltip-container p {
+    font-weight: bolder;
+    font-size: 10px;
+    margin: 0;
+}
+.other-tooltip-container ::after {
+    content: "";
+    background-color: white;
+    position: absolute;
+    box-shadow: inset -1px -1px 0px 0px rgba(0, 0, 0, 0.2);
+    width: 9px;
+    height: 9px;
+    top: 18%;
+    left: 0;
+    margin-left: -4px;
+    transform: rotate(135deg);
+}

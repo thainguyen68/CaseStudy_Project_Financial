@@ -1,0 +1,88 @@
+.container-popup-transaction{
+    padding: 20px 10px 20px 10px;
+    width: 100%;
+    background: #fff;
+
+}
+
+.container-popup-transaction .row-form{
+    display: flex;
+    flex-wrap:wrap ;
+    gap:15px;
+    position: relative;
+}
+.popup-detail-category{
+    right: 0px;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    /*display: none;*/
+    background: #ffffff;
+    z-index: 1;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+.container-popup-transaction .row-form .col-form{
+    flex: 1 1 250px;
+}
+
+.container-popup-transaction .row-form .col-form .inputBox{
+    margin: 10px 0 30px;
+}
+.container-popup-transaction .row-form .col-form .inputBox span{
+    margin-bottom: 10px;
+    display: block;
+    font-size: 18px;
+}
+
+.container-popup-transaction .row-form .col-form .inputBox input{
+    width: 90%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+.container-popup-transaction .row-form .col-form .inputBox .select {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+.container-popup-transaction .row-form .col-form .inputBox input:focus
+{
+    outline: 2px solid #00acee
+}
+.container-popup-transaction .row-form .col-form .inputBox .select{
+    outline: 2px solid #00acee
+}
+.btn-submit-transaction{
+    display: inline-block;
+    width: 48%;
+    padding: 12px;
+    font-size: 17px;
+    background: #6bbd8e;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+    border: none;
+    margin-right: 20px;
+}
+.btn-submit-transaction:hover{
+    background: #58B27EFF;
+}
+.btn-reject-transaction{
+    border: none;
+    display: inline-block;
+    width: 48%;
+    padding: 12px;
+    font-size: 17px;
+    background: #ea4545;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.btn-reject-transaction:hover{
+    background: #EF6262FF;
+}

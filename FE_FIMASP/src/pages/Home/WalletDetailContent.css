@@ -1,0 +1,136 @@
+.walletDetail-content {
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    height: 346px!important;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding-left: 45px;
+
+}
+.walletDetail-content .choice-box-icon{
+    position: absolute;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    right: 7px;
+    z-index: 1;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.walletDetail-content .choice-box-icon:hover{
+    background-color: #af9a9a;
+    cursor: pointer;
+}
+.walletDetail-content-table{
+    position: absolute;
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 94%;
+    height: 90%;
+    top: 30px;
+}
+.walletDetail-content td{
+    position: relative;
+    width: 50%;
+    height: 20%;
+    vertical-align: middle;
+}
+.walletDetail-content p{
+    margin: 0;
+}
+.walletDetail-content button{
+    width: 30%;
+}
+.walletDetail-content .icon-wallet{
+    margin-right: 10px;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    background: black;
+    margin-bottom: 2px;
+}
+.walletDetail-content .block-wallet{
+    display: inline-block;
+    /* text-align: center; */
+    align-content: center ;
+    justify-items: center;
+    width: 70px;
+    font-size: 12px;
+    text-align: center !important;
+}
+.walletDetail-content .block-wallet > div {
+    margin-left: 25%;
+}
+.walletDetail-content .block-wallet:hover{
+    cursor: pointer;
+}
+.walletDetail-content i{
+    position: relative;
+    left: 7px;
+    top:7px;
+    font-weight: 500;
+    font-size: 18px!important;
+}
+.walletDetail-content .color-sample{
+    float: left;
+    width: 25%;
+    height: 30px;
+    position: relative;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+.walletDetail-content .color-sample:hover{
+    cursor: pointer;
+}
+.choice-modal-box {
+    position: absolute;
+    width: 46%;
+    height: 39%;
+    background-color: #ffffff;
+    z-index: 2;
+    border-radius: 10px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    left: 49%;
+    top: 11%;
+    box-shadow: 0 0 3.125rem 0 rgba(82, 63, 105, 0.15);
+}
+.choice-modal-box ul{
+    list-style-type: none;
+    line-height: 2.5;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    font-size: 18px;
+
+ }
+.choice-modal-box ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 0px 25px;
+}
+.choice-modal-box ul li:hover{
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+.choice-modal-box ul li i{
+    padding-right: 15px;
+    left: 0;
+    top: 15px;
+}

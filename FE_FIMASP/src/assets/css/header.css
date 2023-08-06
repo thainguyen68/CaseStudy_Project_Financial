@@ -1,0 +1,92 @@
+#Notification-block{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #f7f7fa;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    float: right;
+}
+.fa-bell{
+    position: absolute;
+    font-weight: 500;
+    font-size: 25px;
+    top: 12px;
+    left: 14px;
+}
+#count-notification{
+   position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #00acee;
+    border-radius: 50px;
+    top: 2px;
+    right: 0px;
+}
+
+#count-notification p{
+    position: absolute;
+    top: 1.5px;
+    left: 3px;
+    font-size: 7px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#Notification{
+    padding:20px 15px 0px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #eff2f7;
+    box-shadow: 0 0 1.25rem rgba(31, 45, 61, 0.08);
+    overflow: hidden;
+    right: 43px;
+    top: 50px;
+    z-index: 11;
+    background: #fff;
+}
+#Header-notification{
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: bold;
+}
+#Notification-detail{
+    height: 45px;
+    display: flex;
+    margin-bottom: 20px;
+}
+#Notification-image-block{
+    width: 50px;
+    height: 50px;
+    border-radius: 0.75rem;
+    background: #c7f6dc;
+    position: relative;
+    display: inline-block;
+}
+.Notification-warning{
+    background: #ffeaea;
+}
+.fa-triangle-exclamation{
+    color: #fd5353;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    font-size: 23px;
+}
+.fa-house{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 20px;
+    color: #1eba62;
+}
+
+#Notification-content{
+    display: inline-block;
+    margin-left: 20px;
+}
+#Notification-content h4{
+    font-weight: bold;
+}

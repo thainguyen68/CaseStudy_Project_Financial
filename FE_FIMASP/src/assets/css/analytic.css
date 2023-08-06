@@ -1,0 +1,123 @@
+#analytic-chart-time{
+    width: 50%;
+    height: 240px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 25px 10px 20px 10px;
+    float: left;
+    display: inline-block;
+    margin-right: 25px;
+}
+#title-analytic{
+    width: 95%;
+    height: 35px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px 10px 5px 25px;
+    margin-bottom: 20px;
+}
+
+#balance-wallet span{
+    font-size: 13px;
+    color: #1eba62;
+}
+#balance-wallet h3{
+    margin-bottom: 15px;
+}
+#balance-wallet p{
+    color: #1eba62;
+    margin-bottom: 5px;
+}
+#analytic-income-chart-time{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#analytic-income-chart-time #icon-analytic-income,#analytic-expense-chart-time #icon-analytic-expense{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background: #1eba62;
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+}
+#analytic-expense-chart-time #icon-analytic-expense{
+    background: #fd5353;
+}
+.fa-money-bill-trend-up{
+    color: #fff;
+    position: absolute;
+    top: 22%;
+    left: 28%;
+    font-size: 20px;
+}
+#analytic-income-chart-time #parameter-analytic-income p{
+    color: #1eba62;
+    font-size: 14px;
+}
+
+#analytic-expense-chart-time #parameter-analytic-expense p{
+    color: #fd5353;
+    font-size: 14px;
+}
+#list-lastest-transaction{
+    height: 500px;
+    background: #fff;
+    border-radius: 15px;
+    width: 50%;
+    padding: 20px 10px 20px 10px;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+#analytic-category-chart-time{
+    height: 300px;
+    width: 44.2%;
+    background: #fff;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#list-category-most-feature{
+    display: inline-flex;
+    width: 90%;
+    position: relative;
+}
+.icon-category-feature{
+    width: 14px;
+    height: 14px;
+    background: #9568ff;
+    border-radius: 4px;
+    display: inline-block;
+    float: left;
+    margin: 5px 10px 0 20px;
+}
+.icon-2{
+    background: #ff5166;
+}
+.icon-3{
+    background: #ed3dd1;
+}
+.icon-4{
+    background: #2bc844;
+}
+#analytic-category-chart-time h2{
+    font-size: 18px;
+}
+#chart-by-category-feature{
+    height: 140px;
+}
+#wallet-analytic-block{
+    display: inline-block;
+    float: right;
+    width: 44.2%;
+}
+#activity-wallet-lastest{
+    background: #fff;
+    height: 200px;
+    width: 95%;
+    border-radius: 15px;
+    padding: 20px 30px;
+}
